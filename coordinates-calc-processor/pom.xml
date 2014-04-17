@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.esri.geoevent.parent</groupId>
+		<artifactId>coordinates-calc</artifactId>
+		<version>10.2.1</version>
+	</parent>
+	<groupId>com.esri.geoevent.processor</groupId>
+	<artifactId>coordinates-calc-processor</artifactId>
+	<name>Esri :: GeoEvent :: Processor :: CoordinatesCalc</name>
+	<packaging>bundle</packaging>
+	<dependencies>
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.felix</groupId>
+				<artifactId>maven-bundle-plugin</artifactId>
+				<extensions>true</extensions>
+				<configuration>
+					<instructions>
+						<Bundle-SymbolicName>${project.groupId}.${project.artifactId}</Bundle-SymbolicName>
+						<Bundle-ContactAddress>${contact.address}</Bundle-ContactAddress>
+						<Bundle-Version>${project.version}</Bundle-Version>
+						<AGES-Domain>com.esri.geoevent.processor</AGES-Domain>
+						<Export-Package />
+						<Private-Package>com.esri.geoevent.processor.coordinatescalc</Private-Package>
+					</instructions>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
