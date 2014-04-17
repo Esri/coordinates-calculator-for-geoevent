@@ -1,11 +1,11 @@
-# event-counter-for-geoevent
+# coordinates-calc-for-geoevent
 
-ArcGIS GeoEvent Processor Sample Event Counter Processor for counting GeoEvents.
+ArcGIS GeoEvent Processor Sample Coordinates Calc Processor for converting DDMM long to decimal degrees.
 
-![App](event-counter-for-geoevent.png?raw=true)
+![App](coordinates-calc-for-geoevent.png?raw=true)
 
 ## Features
-* Event Counter Processor
+* Coordinates Calc Processor
 
 ## Instructions
 
