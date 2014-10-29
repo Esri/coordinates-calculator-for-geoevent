@@ -24,19 +24,19 @@ public class CoordinatesCalcProcessorDefinition extends GeoEventProcessorDefinit
 	@Override
   public String getVersion()
   {
-    return "10.2.0";
+    return "10.3.0";
   }
 	
 	@Override
   public String getLabel()
   {
-    return "Coordinates Calculation Processor";
+    return "${com.esri.geoevent.processor.coordinates-calc-processor.PROCESSOR_LABEL}";
   }
 	
 	@Override
   public String getDescription()
   {
-    return "This is a Coordinates Calculation Processorr.";
+    return "${com.esri.geoevent.processor.coordinates-calc-processor.PROCESSOR_DESC}";
   }
 
   @Override
