@@ -1,11 +1,11 @@
 # coordinates-calc-for-geoevent
 
-ArcGIS 10.3.x GeoEvent Extension Sample Coordinates Calc Processor for converting DDMM long to decimal degrees.
+ArcGIS 10.3 GeoEvent Extension sample Coordinates Calculator Processor for converting DDMM long to decimal degrees.
 
 ![App](coordinates-calc-for-geoevent.png?raw=true)
 
 ## Features
-* Coordinates Calc Processor
+* Coordinates Calculator Processor
 
 ## Instructions
 
