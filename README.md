@@ -27,7 +27,7 @@ Installing the built jar files:
 
 ## Resources
 
-* [ArcGIS GeoEvent Extension for Server Resource Center](http://links.esri.com/geoevent)
+* [ArcGIS GeoEvent Extension for Server Resources](http://links.esri.com/geoevent)
 * [ArcGIS Blog](http://blogs.esri.com/esri/arcgis/)
 * [twitter@esri](http://twitter.com/esri)
 
