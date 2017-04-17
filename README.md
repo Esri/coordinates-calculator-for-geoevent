@@ -1,4 +1,4 @@
-# coordinates-calc-for-geoevent
+# coordinates-calculator-for-geoevent
 
 ArcGIS 10.3.x GeoEvent Extension sample Coordinates Calculator Processor for converting DDMM long to decimal degrees.
 
